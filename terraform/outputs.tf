@@ -6,7 +6,7 @@ output "client_public_ip" {
 
 output "flask_app_url" {
   description = "URL to access the Flask app on the app-old instance"
-  value       = "http://${aws_route53_record.app.fqdn}:5000"
+  value       = "http://${aws_route53_record.app.fqdn}:5080"
 }
 
 output "ssh_access_to_app" {
