@@ -77,7 +77,7 @@ class InfobloxVPNCleaner:
             r.raise_for_status()
 
 if __name__ == "__main__":
-    vpn_name = "DEMO"
+    vpn_name = "Demo"
 
     client = InfobloxVPNCleaner("config_vpn.yaml")
     client.authenticate()
