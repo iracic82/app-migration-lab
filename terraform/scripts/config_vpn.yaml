@@ -6,7 +6,7 @@ sandbox_id_file: sandbox_id.txt
 vpn_payload:
   universal_service:
     operation: CREATE
-    name: DEMO
+    name: Demo
     capabilities: 
         - type: dns
     tags:
